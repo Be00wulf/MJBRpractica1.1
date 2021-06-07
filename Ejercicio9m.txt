@@ -1,0 +1,13 @@
+Algoritmo ejercicio9m
+	Mostrar  "Ingrese una palabra "
+	Leer A
+	
+	Mostrar  "Ingrese otra palabra "
+	Leer B
+	
+	reserva = A
+	A = B
+	B = reserva
+	
+	Mostrar "La primera palabra es ", A, " y la segunda palabra es ", B
+FinAlgoritmo
