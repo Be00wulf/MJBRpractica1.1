@@ -1,0 +1,11 @@
+Algoritmo ejercicio6
+	x <- 1 + azar(200)
+	Mostrar  "El numero es ",x
+	
+	extra = (30*x)/100
+	aumento = x + extra
+	
+	
+	Mostrar "El numero aleatorio ",x " aumentado en un 30% es de ",aumento
+	
+FinAlgoritmo
