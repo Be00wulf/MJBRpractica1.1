@@ -1,0 +1,47 @@
+Algoritmo ejercicio20
+	Mostrar  "Ingrese un numero de 5 digitos"
+	Leer numero
+	
+	si numero > 0 Entonces
+		
+		si numero > 9999 Entonces
+			
+			si numero < 100000 Entonces
+				
+				cadena = ConvertirATexto(numero)
+				digito1 = Subcadena(cadena,1,1)
+				digito2 = Subcadena(cadena,2,2)
+				digito3 = Subcadena(cadena,3,3)
+				digito4 = Subcadena(cadena,4,4)
+				digito5 = Subcadena(cadena,5,5)
+				
+				d1 = ConvertirANumero(digito1)
+				d2 = ConvertirANumero(digito2)
+				d3 = ConvertirANumero(digito3)
+				d4 = ConvertirANumero(digito4)
+				d5 = ConvertirANumero(digito5)
+				
+				si digito1 = digito5 Entonces
+					si digito2 = digito4 Entonces
+						si digito3 = digito3 Entonces
+							Mostrar "Es capicua"
+						SiNo
+							Mostrar "No es capicua"
+						FinSi
+					SiNo
+						Mostrar "No es capicua"
+					FinSi
+				SiNo
+					Mostrar "No es capicua"
+				FinSi
+			SiNo
+				Mostrar "ERROR, NUMERO FUERA DE LIMITE"
+			FinSi
+		SiNo
+			Mostrar "ERROR, NUMERO FUERA DE LIMITE"
+		FinSi
+	SiNo
+		Mostrar "ERROR, NUMERO FUERA DE LIMITE"
+	FinSi
+	
+FinAlgoritmo
