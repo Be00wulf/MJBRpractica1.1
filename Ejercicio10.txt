@@ -1,0 +1,13 @@
+Algoritmo ejercicio10
+	
+	Mostrar  "Ingrese el valor de la base "
+	Leer base
+	
+	Mostrar  "Ingrese el valor de la altura "
+	Leer altura
+	
+	area = base * altura
+	perimetro = (2*base) + (2*altura)
+	
+	Mostrar "El area es de ",area "u^2 y el perimetro es de ",perimetro "u"
+FinAlgoritmo
