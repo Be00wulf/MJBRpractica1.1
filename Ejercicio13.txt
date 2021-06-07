@@ -1,0 +1,19 @@
+Algoritmo ejercicio13
+	
+	Mostrar  "Ingrese el valor del radio "
+	Leer radio
+	
+	Si radio>0 Entonces
+		Mostrar  "Ingrese el valor de la altura "
+		Leer altura
+		Si altura>0 Entonces
+			volumen = 3.1416 * radio * radio * altura
+			Mostrar "El volumen del cilindro es ", volumen
+		SiNo
+			Mostrar "Debe ingresar datos positivos mayores a cero"	
+		FinSi
+	SiNo
+		Mostrar "Debe ingresar datos positivos mayores a cero"
+	FinSi
+	
+FinAlgoritmo
