@@ -1,0 +1,14 @@
+Algoritmo ejercicio9
+	
+	Mostrar  "Ingrese una palabra "
+	Leer A
+	
+	Mostrar  "Ingrese otra palabra "
+	Leer B
+	
+	palabraA = B
+	palabraB = A
+	
+	Mostrar "La primera palabra es ",palabraA " y la segunda palabra es ",palabraB
+	
+FinAlgoritmo
