@@ -1,0 +1,11 @@
+Algoritmo ejercicio3
+	
+	Mostrar "Escribir un numero "
+	Leer numero 
+	
+	doble <- numero * 2
+	triple <- numero * 3
+	
+	Mostrar "El doble de ",numero, " es ",doble
+	Mostrar "El triple de ",numero," es ",triple
+FinAlgoritmo
