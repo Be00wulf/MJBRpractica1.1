@@ -1,0 +1,30 @@
+Algoritmo ejercicio17
+	
+	Mostrar  "Ingrese el valor del numero 1 "
+	Leer numero1
+	
+	Mostrar  "Ingrese el valor del numero 2 "
+	Leer numero2
+	
+	Mostrar  "Ingrese el valor del numero 3 "
+	Leer numero3
+	
+	Si numero1 = numero2 Entonces
+		Si numero2 = numero3
+			Mostrar "Es un triangulo equilatero"
+		SiNo
+			Mostrar "Es un triangulo isosceles"
+		FinSi
+	SiNo 
+		Si numero2 = numero3 Entonces
+			Mostrar "Es un triangulo isosceles"
+		SiNo
+			Si numero1 = numero3 Entonces
+				Mostrar "Es un triangulo isosceles"
+			SiNo
+				Mostrar "Es un triangulo escaleno"
+			FinSi
+		FinSi
+	FinSi
+	
+FinAlgoritmo
