@@ -1,0 +1,12 @@
+Algoritmo ejercicio19
+	aleatori0 <- 1+ azar(1000)
+	Mostrar "El numero es ",aleatori0
+	
+	si aleatori0 <= 25 Entonces
+		si aleatori0 % 5 = 0 Entonces
+			Mostrar  "Correcto"
+		FinSi
+	SiNo
+		Mostrar "Incorrecto"
+	FinSi
+FinAlgoritmo
