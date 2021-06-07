@@ -1,0 +1,14 @@
+Algoritmo ejercicio14
+	
+	Mostrar  "Ingrese el valor del numero 1 "
+	Leer numero1
+	Mostrar  "Ingrese el valor del numero 2 "
+	Leer numero2
+	
+	Si numero1 % numero2 = 0 Entonces
+		Mostrar  "Es divisible"
+	SiNo
+		Mostrar "No es divisible"
+	FinSi
+	
+FinAlgoritmo
