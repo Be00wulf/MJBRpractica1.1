@@ -1,0 +1,11 @@
+Algoritmo ejercicio7
+	aleatori0 <- 10+ azar(50)
+	Mostrar  "El numero aleatorio es ",aleatori0
+	
+	perdida = (15*aleatori0)/100
+	disminucion = aleatori0 - perdida
+	
+	
+	Mostrar "El numero aleatorio disminuido en un 15% es " disminucion
+	
+FinAlgoritmo
