@@ -1,0 +1,11 @@
+Algoritmo ejercicio4
+	
+	Mostrar "Escribir un numero "
+	Leer numero 
+	
+	cuadrado <- numero * numero
+	cubo <- numero * numero * numero
+	
+	Mostrar "El cuadrado de ",numero, " es ",cuadrado
+	Mostrar "El cubo de ",numero," es ",cubo
+FinAlgoritmo
