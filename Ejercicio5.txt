@@ -1,0 +1,10 @@
+Algoritmo ejercicio5
+	
+	Mostrar "Escribir un numero "
+	Leer numero 
+	
+	siguiente <- numero + 1
+	
+	Mostrar "El siguiente numero es ",siguiente
+	
+FinAlgoritmo
