@@ -1,0 +1,43 @@
+Algoritmo ejercicio18
+	
+	Mostrar  "Ingrese un numero entre 0 y 9999"
+	Leer numero
+	
+	Si numero >= 0 Entonces
+		si numero <= 9999
+			cadena = ConvertirATexto(numero)
+			digito1 = Subcadena(cadena,1,1)
+			digito2 = Subcadena(cadena,2,2)
+			digito3 = Subcadena(cadena,3,3)
+			digito4 = Subcadena(cadena,4,4)
+			
+			d1 = ConvertirANumero(digito1)
+			d2 = ConvertirANumero(digito2)
+			d3 = ConvertirANumero(digito3)
+			d4 = ConvertirANumero(digito4)
+			
+			si numero < 10 Entonces
+				Mostrar "La suma total es ",digito1
+			SiNo
+				si numero < 100 Entonces
+					suma1 = d1+d2
+					Mostrar digito1, " + ",digito2 " = ",suma1
+				SiNo
+					si numero < 1000 Entonces
+						suma2 = d1+d2+d3
+						Mostrar digito1, " + ",digito2 " + ",digito3 " = ",suma2
+					SiNo
+						si numero <= 9999 Entonces
+							suma3 = d1+d2+d3+d4
+							Mostrar digito1, " + ",digito2 " + ",digito3, " + ",digito4, " = ",suma3
+						FinSi
+					FinSi
+				FinSi
+			FinSi	
+		FinSi
+	SiNo
+		Mostrar "Error, numero fuera de limite"
+	FinSi
+
+	
+FinAlgoritmo
