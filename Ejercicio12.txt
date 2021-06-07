@@ -1,0 +1,10 @@
+Algoritmo ejercicio12
+	
+	Mostrar  "Ingrese el valor en grados Celsius"
+	Leer temperaturaC
+	
+	temperaturaF = (temperaturaC * (9/5)) + 32
+	
+	Mostrar "La temperatura en grados Fahrenheit es de ", temperaturaF
+	
+FinAlgoritmo
