@@ -1,0 +1,16 @@
+Algoritmo ejercicio8
+	
+	Mostrar  "Ingrese el primer valor "
+	Leer numero1
+	
+	Mostrar  "Ingrese el seundo valor "
+	Leer numero2
+	
+	Mostrar  "Ingrese el tercer valor "
+	Leer numero3
+	
+	promedio = (numero1 + numero2 + numero3)/3
+	
+	Mostrar "El promedio entre los 3 numeros es de ",promedio 
+	
+FinAlgoritmo
